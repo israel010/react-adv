@@ -13,7 +13,7 @@ interface Route {
 
 const LazyLayout = lazy(
   () =>
-    import(/* webpackChunkName:"LAzyPage1"*/ "../lazy-load/layout/LazyLayout")
+    import(/* webpackChunkName:"LazyLayout"*/ "../lazy-load/layout/LazyLayout")
 );
 
 export const routes: Route[] = [
